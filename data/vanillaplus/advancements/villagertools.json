@@ -8,7 +8,7 @@
             "text": "Adds helpful trigger that makes working with villagers less painful."
         },
         "icon": {
-            "item": "minecraft:ender_eye"
+            "item": "minecraft:villager_spawn_egg"
         },
         "frame": "task",
         "show_toast": false,
