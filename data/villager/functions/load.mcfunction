@@ -18,5 +18,5 @@ scoreboard objectives add VT.Brain trigger
 
 # Load message
 tellraw @a {"text":""}
-tellraw @a [{"text":"                          "},{"text":"Villager Tools v1.2","color":"gray","hoverEvent": {"action": "show_text","value": "By Zefyro14"}}]
+tellraw @a [{"text":"                          "},{"text":"Villager Tools v0.1.2","color":"gray","hoverEvent": {"action": "show_text","value": "By Zefyro14"}}]
 tellraw @a {"text":""}
