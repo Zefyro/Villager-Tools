@@ -16,7 +16,7 @@ scoreboard objectives add VT.Level dummy
 scoreboard objectives add VT.Brain trigger
 
 #> Vanilla+
-scoreboard objectives add VP.VT
+scoreboard objectives add VP.VT dummy
 
 #> Load message
 execute unless score #Loaded VP.VT matches 1 run tellraw @a [{"text":"\n                          "},{"text":"Villager Tools v0.1.2\n","color":"gray","hoverEvent": {"action": "show_text","value": "By Zefyro14"}}]
