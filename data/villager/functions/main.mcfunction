@@ -9,4 +9,4 @@ execute as @a[scores={VT.Brain=1..}] at @s if entity @e[type=villager,limit=1,so
 #> Not found message
 execute as @a[scores={VT.Brain=1..}] at @s unless entity @e[type=villager,limit=1,sort=nearest,distance=..20] run function villager:not_found
 
-execute as @a unless score @s VT.VP matches 1 run function villager:vanillaplus
+execute as @a unless score @s VP.VT matches 1 run function villager:vanillaplus
